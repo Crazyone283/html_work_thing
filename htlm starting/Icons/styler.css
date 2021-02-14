@@ -1,0 +1,51 @@
+
+body{
+    background-color:rgba(30, 255, 0, 0.500);
+    border-style:double;
+    margin: 20;
+}
+
+h1{
+    color:coral;
+}
+
+.header{
+    background-color: rgba(0, 255, 179);
+    justify-content: space-between;
+}
+
+.every_link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 7;
+    padding-right: 7;
+
+}
+.about_thing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.para{
+    display: flex;
+    padding-left: 10;
+    padding-right: 10;
+}
+.links{
+    padding-left: 7;
+}
+.every_link p{
+    color:magenta;
+    display: flex;
+    justify-content: center;
+}
+.every_link :hover img{
+    opacity: 0.5;
+}
+.links :hover{
+    color:darkgreen
+}
+a :visited{
+    color:cornsilk
+}
